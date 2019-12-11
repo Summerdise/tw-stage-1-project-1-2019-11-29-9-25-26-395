@@ -1,20 +1,103 @@
 body {
-    background-color: black;
     width: 95%;
+    height: 1490px;
     margin: auto;
+    font-family: 'Sunflower', sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .header {
-    background: url('素材/starfield-banner.jpg ');
+    display: flex;
     position: fixed;
+    padding: 10px 0;
+    top: 0;
+    height: 110px;
     width: 95%;
-}
-
-.header .logo-link {
-    padding: 10px;
+    justify-content: space-around;
+    background: url('./images/starfield-banner.jpg ');
+    z-index: 99;
 }
 
 .header .logo {
-    width:110px;
-    margin:11px;
+    width: 170px;
+    margin: 10px 15px 0 15px;
+}
+
+.header ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.header .nav {
+    padding-top: 5px;
+}
+
+.top-nav {
+    margin-top: 0;
+    font-size: 19px;
+    text-align: right;
+}
+
+.bottom-nav {
+    margin-bottom: 0;
+    font-size: 13px;
+    text-align: center;
+    background-color: #555555;
+}
+
+.header li {
+    display: inline-block;
+    position: relative;
+    margin: 0 8px;
+}
+
+.top-nav li::after {
+    content: "";
+    position: absolute;
+    height: 42px;
+    top: -8px;
+    right: -10px;
+    border: 1px solid #434343;
+}
+
+ul>li:last-child::after {
+    content: "";
+    border: none;
+}
+
+.bottom-nav li::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -2px;
+    right: -10px;
+    border: 1px solid #6a6a6a;
+}
+
+.search {
+    position: relative;
+    width: 173px;
+    margin: 20px 10px 0 10px;
+}
+
+.search>input {
+    width: 128px;
+    height: 22px;
+    padding: 8px;
+    border: none;
+    background-color: #333;
+}
+
+.header .icon {
+    position: absolute;
+    top: 5px;
+}
+
+.icon-search {
+    right: 30px;
 }
