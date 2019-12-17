@@ -281,3 +281,36 @@ ul>li:last-child::after {
         height: calc(79% - 7px);
     }
 }
+
+.footer {
+    height: 126px;
+}
+
+.office {
+    display: inline-block;
+    width: 30%;
+    height: 86px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.office>img {
+    float: left;
+}
+
+.office .location {
+    margin-left: 50px;
+}
+
+.contact {
+    margin-left: 30%;
+    height: 40px;
+    font-size: 13px;
+}
+
+.contact>a {
+    margin-left: 15px;
+    font-weight: 600;
+    color: #4b5b7c;
+}
