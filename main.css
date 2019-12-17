@@ -101,3 +101,183 @@ ul>li:last-child::after {
 .icon-search {
     right: 30px;
 }
+
+.content {
+    margin-top: 130px;
+}
+
+.content .events {
+    display: flex;
+    height: 640px;
+}
+
+.top-left-event {
+    position: relative;
+    margin-right: 10px;
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    background: url('./images/pia21924-16.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.top-right-event {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.climate {
+    position: relative;
+    margin-right: 10px;
+    width: calc(50% - 10px);
+    height: 50%;
+    background: url('./images/mollweide_cycle.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.news {
+    width: 50%;
+    height: 50%;
+    font-size: 13px;
+    color: #fff;
+    background-color: #4d7197;
+}
+
+.news-title {
+    margin: 13px 13px 6px 13px;
+    height: calc(11% - 14px);
+    border-bottom: 1px solid #fff;
+}
+
+.news-content {
+    margin: 0 8px;
+    height: calc(84% - 7px);
+    border-bottom: 1px solid #fff;
+}
+
+.news-content p {
+    margin-top: 0;
+}
+
+.news-footer span {
+    padding: 0 4%;
+}
+
+.rocket {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: calc(50% - 10px);
+    background-image: url('./images/s69-39961.jpg');
+    background-size: cover;
+}
+
+.detail {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.detail-title {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(90, 113, 150, .8);
+}
+
+.detail-content {
+    padding: 4px 0 4px 12px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.stars,
+.nasa-info {
+    display: flex;
+    margin-top: 13px;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.merger {
+    position: relative;
+    width: 24%;
+    height: 100%;
+    background-image: url('./images/ssc2017-14a1.jpg');
+    background-position: 50% 50%;
+}
+
+.asteriods {
+    position: relative;
+    width: 49%;
+    height: 100%;
+    background: url('./images/pia22556-16.gif') 50% 50% no-repeat;
+}
+
+.stars-video {
+    width: 24%;
+    height: 100%;
+    background-color: #010217;
+}
+
+.stars-video>video {
+    outline: none;
+}
+
+.nasa-info .info {
+    position: relative;
+    width: 24%;
+    height: 100%;
+}
+
+.statement {
+    background: #212121 url('./images/nasa_logo.png') 50% 50% no-repeat;
+}
+
+.juno {
+    background: url('./images/io-home.gif') 50% 50% no-repeat;
+}
+
+.juno>i,
+.merger>i {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.cassini {
+    background: url('./images/cassini20170809.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.telescope {
+    background: url('./images/fermiicecube_as.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.more-story {
+    margin: 30px 0;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #244784;
+}
+
+@media (max-width: 959px) {
+    .header {
+        height: 160px;
+    }
+    .content {
+        margin-top: 180px;
+    }
+    .news-content {
+        height: calc(79% - 7px);
+    }
+}
